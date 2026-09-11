@@ -364,17 +364,3 @@ fprintf('====================================================\n');
 fprintf('              PROGRAM COMPLETED\n');
 fprintf('====================================================\n');
 
-% =========================================
-% TEST GRAPH
-% =========================================
-
-figure('Name','Discharge vs Water Head','NumberTitle','off');
-
-plot(H, Q, 'o-', 'LineWidth', 2, 'MarkerSize', 8);
-
-grid on;
-
-xlabel('Water Head H (cm)');
-ylabel('Actual Discharge Q (m^3/s)');
-title('Discharge vs Water Head');
-drawnow;
